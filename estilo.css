@@ -16,6 +16,7 @@ body {
     #226975,
     #0c551c
   );
+  background-repeat: no-repeat;
   font-family: "Rubik", sans-serif;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.336);
 }
