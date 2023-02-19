@@ -1,0 +1,141 @@
+/*
+Cores:
+861388 roxo
+9EA3B0 cinza
+E2EB98 amarelo
+F15025 laranja
+210203 preto
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-image: radial-gradient(circle at bottom, #e2eb98, #a34328);
+  font-family: 'Rubik', sans-serif;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.336);
+}
+input {
+  box-shadow: 1px 2px 5px #000000;
+}
+.button{
+  background-color: #861388;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px 2px #000000;
+  padding: 2px;
+}
+
+h1 {
+  color: #861388;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 1px 4px #49161688;
+  font-weight: bold;
+}
+
+html {
+  min-height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  list-style: none;
+  border: 1px solid #c0c0c0;
+  float: left;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+  background-color: darkgray;
+  border-right: 1px solid #c0c0c0;
+}
+
+.menu li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.menu li a:hover {
+  background: #333;
+  color: #fff;
+  box-shadow: 2px solid black;
+  -moz-box-shadow: 0 3px 10px 0 #ccc;
+  -webkit-box-shadow: 0 3px 10px 0 #ccc;
+  text-shadow: 0px 0px 5px #fff;
+}
+.menu li ul {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: #fff;
+  display: none;
+}
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+.menu li ul li {
+  border: 1px solid #c0c0c0;
+  display: block;
+  width: 150px;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+#res {
+  font-size: 22px;
+  text-shadow: 1px 1px 2px #861388;
+}
+
+select {
+  background-color: #5c613a86;
+  color: #210203;
+  width: 200px;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px black;
+  padding: 2px;
+}
+
+section {
+  background: #9ea3b0;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 363);
+}
+.tabu {
+  text-align: justify;
+  padding: 8px;
+}
+#foto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#msg {
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font: italic 12pt Arial;
+  border-width: 1px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="../estilo.css" />
+  </head>
+  <body>
+    <ul class="menu">
+      <li>
+        <a href="../menu.html">HOME</a>
+        <ul>
+          <li><a href="../tabuada/tabuada.html">Tabuada</a></li>
+          <li><a href="../kalculadora/calc.html">Calculadora</a></li>
+          <li><a href="cont.html">Contador</a></li>
+        </ul>
+      </li>
+    </ul>
+    <section>
+      <h1>Vamos Contar</h1>
+      <p>Cuidado! contagens muito grandes podem causar travamentos!</p>
+      <div id="dados">
+        <p>Início: <input type="number" name="inicio" id="txti" /></p>
+        <p>Fim: <input type="number" name="fim" id="txtf" /></p>
+        <p>Passo: <input type="number" name="passo" id="txtp" /></p>
+        <p>
+          <input type="button" class="button" value="Contar" onclick="contar()" />
+          <input type="button" class="button" value="Reset" onclick="reset()" />
+        </p>
+      </div>
+      <div id="res">Preparando a contagem...</div>
+    </section>
+    <footer>
+      <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
