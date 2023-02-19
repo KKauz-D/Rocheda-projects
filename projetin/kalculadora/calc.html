@@ -26,12 +26,6 @@
         margin: auto;
       }
 
-      h1 {
-        color: #392b58;
-        text-align: center;
-        text-shadow: 1px 1px 2px #251c3a88;
-      }
-
       h2 {
         color: #645e9d;
       }
@@ -60,7 +54,7 @@
       <p></p>
       <div class="d" id="aviso">Digite um Número: (segue a ordem oferecida)</div>
       <input type="number" name="num" id="txtnum" />
-      <input type="button" value="Adicionar" onclick="adicionar()" />
+      <input type="button" class="button" value="Adicionar"  onclick="adicionar()" />
 
       <p>
         Valores: <br />
@@ -69,15 +63,15 @@
 
       <div class="d">
         <br />
-        <input type="button" value="Somar" onclick="soma()" />
-        <input type="button" value="Subtração" onclick="subt()" />
-        <input type="button" value="Multiplição" onclick="mult()" />
-        <input type="button" value="Divisão" onclick="divi()" />
+        <input type="button" class="button" value="Somar" onclick="soma()" />
+        <input type="button" class="button" value="Subtração" onclick="subt()" />
+        <input type="button" class="button" value="Multiplição" onclick="mult()" />
+        <input type="button" class="button" value="Divisão" onclick="divi()" />
       </div>
       <div class="d" id="res"></div>
       <p>
         Reiniciar os Valores:
-        <input type="button" value="resetar" onclick="reset()" />
+        <input type="button" class="button" value="resetar" onclick="reset()" />
       </p>
     </section>
     <script src="script.js"></script>
